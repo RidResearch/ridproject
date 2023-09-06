@@ -1,9 +1,55 @@
 button {
     width: 100%;
+    border: none;
 }
 
 .calcu {
     display: flex;
+    border: solid 1px black;
+    height: 200px;
+    width: 200px;
     justify-content: center;
     align-items: center ;
+    background: linear-gradient(42deg, rgb(0, 255, 183), rgb(0, 126, 128));
+}
+
+.over {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+/* warna */
+
+.red {
+    background-color: red;
+}
+
+.red:hover {
+    background-color: tomato;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue:hover{
+    background-color: cyan;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.orange:hover {
+    background-color: salmon;
+}
+
+.green {
+    background-color: green;
+}
+
+.green:hover {
+    background-color: greenyellow;
 }
