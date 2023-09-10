@@ -1,0 +1,37 @@
+.blue {
+    background-color: #279EFF ;
+}
+
+.yellow {
+    background-color: #FFCC70;
+    border: none;
+}
+
+.nb {
+    border: red 1px solid;
+    font-family: 'Jost', sans-serif;
+}
+
+#navbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+body {
+    font-size: larger;
+}
+
+button {
+    color: aliceblue;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+button:active {
+    transform: translatey(5px);
+}
