@@ -1,0 +1,110 @@
+
+/* warna */
+.blue {
+    background-color: #279EFF ;
+}
+
+.yellow {
+    background-color: #FFCC70;
+    border: none;
+}
+/* warnan */
+
+.nb {
+    border: red 1px solid;
+    font-family: 'Jost', sans-serif;
+}
+
+/* persegi panjang */
+.ppanjang {
+    border: none;
+    border-radius: 10px;
+    background-color: #FFA1F5;
+    margin-left:300px;
+    margin-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px
+}
+
+
+.segipbtn {
+    flex-grow: 1;
+    margin-left: 5px;
+}
+
+#tambahTinggi {
+    margin-left: 5px;
+}
+#tambahPanjang {
+    margin-left: 5px;
+}
+#labelT {
+    margin-left: 10px;
+}
+
+#perpanjang {
+    display: flex;
+    justify-content: space-evenly;
+}
+/* persegi panjang */
+
+/* persegi */
+.persegi {
+    border: none;
+    border-radius: 10px;
+    background-color: #FFA1F5;
+    margin-left:300px;
+    margin-right: 300px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.segibtn {
+    flex-grow: 1;
+    margin-left: 5px;
+}
+
+#tambahSisi {
+    flex-grow: 2;
+    margin-left: 5px;
+    margin-right: px;
+    height: 30px;
+}
+
+#persegi {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+/* persegi */
+
+
+
+#navbar {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+
+body {
+    font-size: larger;
+}
+
+button {
+    color: aliceblue;
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+}
+
+button:active {
+    transform: translatey(5px);
+}
